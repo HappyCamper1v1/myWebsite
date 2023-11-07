@@ -84,7 +84,7 @@ h2 {
 }
 
 nav {
-    background-color: rgb(255, 255, 255,0.5);
+    background-color: rgb(255, 255, 255, 1);
     padding: 5px 0;
     position: fixed;
     width: 100%;
@@ -123,7 +123,7 @@ nav a:hover {
 }
 
 .dropdown-btn {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 1);
     margin-right: 20px;
     color: rgb(1,54,96);
     border-radius: 10px;
@@ -142,6 +142,7 @@ nav a:hover {
     position: absolute;
     right: 0;
     min-width: 160px;
+    background-color: #ffffff;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   
 }
@@ -167,11 +168,14 @@ nav a:hover {
     .dropdown-menu {
         display: block;
     }
-    .dropdown-btn:focus + .dropdown-content {
-        display: block;
-        border-radius: 10px;
+    .dropdown-btn:hover + .dropdown-content, 
+    .dropdown-content:hover {
+    display: block;
     }
-   
+    .dropdown-btn:focus + .dropdown-content,
+    .dropdown-content:focus-within {
+    display: block;
+    }
 }
 
 .project-container{
