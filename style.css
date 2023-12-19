@@ -238,23 +238,28 @@ img {
 #project-image4 {
     animation: project-image1  5s infinite;
 }
-
 .project-row:nth-child(1) .project-item:nth-child(1) {
     background-color: rgb(240, 206, 142);
 }
 .project-row:nth-child(1) .project-item:nth-child(1) .project-text{
   color: #000000;
 }
-.project-row:nth-child(1) .project-item:nth-child(2) {
-    background-color: #013660;
-}
-.project-row:nth-child(2) .project-item:nth-child(2) {
+.project-row:nth-child(2) .project-item:nth-child(1) {
     background-color: rgb(240, 206, 142);
 }
-.project-row:nth-child(2) .project-item:nth-child(2) .project-text{
+.project-row:nth-child(2) .project-item:nth-child(1) .project-text{
+  color: #000000;
+}
+.project-row:nth-child(2) .project-item:nth-child(2) {
+    background-color: #013660;
+}
+.project-row:nth-child(3) .project-item:nth-child(2) {
+    background-color: rgb(240, 206, 142);
+}
+.project-row:nth-child(3) .project-item:nth-child(2) .project-text{
     color: #000000;
 }
-.project-row:nth-child(2) .project-item:nth-child(1) {
+.project-row:nth-child(3) .project-item:nth-child(1) {
     background-color: #013660;
 }
 
