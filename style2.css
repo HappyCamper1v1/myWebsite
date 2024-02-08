@@ -5,6 +5,9 @@ body {
     padding: 0;
     background-color: #ffffff;
 }
+h3 {
+    font-size: 30px;
+}
 #w-box {
     display: block;
     width: 100%;
@@ -191,6 +194,11 @@ nav a:hover {
     width: 100%;
 }
 
+#helloamir {
+    color: red;
+    font-size: 100px;
+}
+
 .project-item {
     padding: 15px;
     border-radius: 10px;
@@ -267,7 +275,22 @@ img {
     background-color: #013660;
 }
 
+.blog-link {
+    font-size: 24px;
+    text-decoration: none;
+}
+.home-blog {
+    max-width: 1000px;
+    font-size: 32px;
+    color: rgb(1, 54, 96);
+    animation: introText 3s;
+}
 
+.blog-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width: 1525px) {
     .project-item {
@@ -277,6 +300,9 @@ img {
 }
 @media (max-width: 1380px) {
     .home-text {
+        font-size: 26px;
+    }
+    .home-blog {
         font-size: 26px;
     }
 }
@@ -297,6 +323,10 @@ img {
         font-size: 16px;
         padding: 20px;
     }
+    .home-blog {
+        font-size: 16px;
+        padding: 20px;
+    }
     #s1 {
         font-size: 32px;
     }
@@ -314,8 +344,6 @@ img {
     }
 
 }
-
-
 
 @media (max-width: 910px) {
     .project-row {
